@@ -51,8 +51,8 @@ os.system('convert merge.png -strokewidth 1 -fill none -stroke black -draw \"str
 os.system('convert draw_merge.png  -fill white -draw "rectangle 0,0 '+str(width/2)+','+str(height)+'" draw_final.png')
 
 os.system('convert -flatten draw_fold.png draw_fold.png')
-os.system('convert -flatten draw_merge.png draw_merge0.png')
-os.system('convert -flatten draw_final.png draw_final0.png')
+os.system('convert -flatten draw_merge.png draw_merge.png')
+os.system('convert -flatten draw_final.png draw_final.png')
 
 
 
